@@ -6,7 +6,7 @@ const login = () => {
     alert("Please enter username and password");
   } else {
     cdApi.setCustomerSessionId("jgh875wdwlv0skue70");
-    window.location.replace("/overview.html");
+    window.location.replace("./overview.html");
   }
 };
 

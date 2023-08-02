@@ -15,7 +15,7 @@ const makePayment = async () => {
     }
   );
   if (response.status === 200) {
-    window.location.replace("/payment-success.html");
+    window.location.replace("./payment-success.html");
   } else {
     alert("Payment failed");
   }
